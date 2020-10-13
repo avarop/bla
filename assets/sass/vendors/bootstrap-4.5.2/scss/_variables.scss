@@ -16,6 +16,12 @@ $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
+$eerie: #121619 !default;
+$raisin: #222323 !default;
+$nickel: #6C6E70 !default;
+$platinum: #E6E7E7 !default;
+$elgray: #D1D1D1 !default;
+
 
 $grays: () !default;
 $grays: map-merge(
@@ -43,6 +49,9 @@ $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
+$fuzwuzy: #E56353 !default;
+$rudpink: #D76C69 !default;
+$spapink: #ECBCBA !default;
 
 $colors: () !default;
 $colors: map-merge(
@@ -59,7 +68,11 @@ $colors: map-merge(
     "cyan":       $cyan,
     "white":      $white,
     "gray":       $gray-600,
-    "gray-dark":  $gray-800
+    "gray-dark":  $gray-800,
+    "fuzwuzy":    $fuzwuzy,
+    "rudpink":    $rudpink,
+    "spapink":    $spapink,
+       
   ),
   $colors
 );
@@ -72,6 +85,15 @@ $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
+$ee:            $eerie !default;
+$ra:            $raisin !default;
+$ni:            $nickel !default;
+$pla:           $platinum !default;
+$elg:           $elgray !default;
+$ru:            $rudpink !default;
+$sp:            $spapink !default;
+$fu:            $fuzwuzy !default;
+
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
@@ -83,7 +105,17 @@ $theme-colors: map-merge(
     "warning":    $warning,
     "danger":     $danger,
     "light":      $light,
-    "dark":       $dark
+    "dark":       $dark,
+    "ee":         $eerie,
+    "ra":         $raisin,
+    "ni":         $nickel,
+    "pla":        $platinum,
+    "elg":        $elgray,
+    "ru":         $rudpink,
+    "sp":         $spapink,
+    "fu":         $fuzwuzy,
+
+
   ),
   $theme-colors
 );
