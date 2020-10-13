@@ -1,1 +1,6 @@
-@import "vendors/bootstrap-4.5.2/scss/bootstrap.scss"
+@import "./vendors/bootstrap-4.5.2/scss/bootstrap.scss";
+@import "./abstracts/variables";
+@import "./base/reset";
+@import "./base/typography";
+@import "./layout/header";
+
